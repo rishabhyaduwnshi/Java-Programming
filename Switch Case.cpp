@@ -1,3 +1,5 @@
+//int, byte, short, char and string can also be used with Switch case 
+
 import java.lang.*;
 import java.util.*;
 
