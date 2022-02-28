@@ -3,7 +3,7 @@ import java.util.*;
 
 //A class having atleast one abstract method is called an abstract class
 //abstract keyword is used to define a class as abstract
-
+//abstract classes are used to achieve polymorphism
 abstract class Parent
 {
     public Parent()
