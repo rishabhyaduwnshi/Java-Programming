@@ -8,6 +8,8 @@ class Main
     {
         int array[] = {5,0,1,2,4};
         int result;
+
+        System.out.println("This is an example program for testing Multiple catch blocks");
         
         try
         {
