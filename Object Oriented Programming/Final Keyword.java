@@ -6,11 +6,11 @@ class finalKeyword
 {
     //varibales declared with final keyword should be written in uppercase
     final int MIN = 1;
-    final int MAX;
+    static final int MAX;
     final int NORMAL;
     
     //final keyword variables can also be initilised inside constructor and every constructor
-    void finalKeyword()
+    public finalKeyword()
     {
         NORMAL = 50;
     }
@@ -19,7 +19,7 @@ class finalKeyword
     static
     {
         MAX = 100;
-    }s
+    }
     
 }
 
