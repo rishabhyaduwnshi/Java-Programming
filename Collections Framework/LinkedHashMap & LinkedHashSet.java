@@ -5,6 +5,7 @@ class Main
 {
     public static void main(String args[])
     {
+        //linked hash set is also same, but  stores only value and not keys & pairs
         LinkedHashMap<Integer,String> lhm = new LinkedHashMap<>(5,0.75f,true);
         lhm.put(1,"A");
         lhm.put(2,"B");
