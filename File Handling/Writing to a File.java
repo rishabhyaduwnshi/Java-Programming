@@ -8,7 +8,7 @@ class Main
     {
         try
         {
-            FileOutputStream fos = new FileOutputStream("TextFile.txt");
+            FileOutputStream fos = new FileOutputStream("TextFile.txt"); //Instead of FileOutputStream we can also use FileWriter for char and the methods are the same
             
             //1st Method
             String str1 = "Learning Java Programming\n";
