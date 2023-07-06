@@ -1,0 +1,23 @@
+Inserting into Department Table
+
+10|CSE
+20|ECE
+30|Civil
+40|Mech
+50|Chem
+
+pragma foreign_keys=ON -> for switching on the foreign key constraint 
+
+Inserting into Students Table
+
+1|Ajay|Delhi|10
+2|Akash|Mumbai|10
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+5|Suneeta|Lucknow|40
+6|Anita|Kolkata|30
+7|Raj|Jaipur|30
+8|Ali|Lucknow|40
+9|Michael|Cochin|10
+10|Pavan|Bengaluru|50
+
