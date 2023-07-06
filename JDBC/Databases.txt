@@ -1,0 +1,4 @@
+Database Commands
+Data Definition Lanaguage -> Create, Drop, Alter, Truncate, Rename
+Data Manipulation Language -> Insert, Delete, Update
+Query -> Select, From, Where
