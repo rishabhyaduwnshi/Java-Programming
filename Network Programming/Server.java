@@ -28,12 +28,13 @@ public class Main
         {
             //reads the line socket sent
             msg = br.readLine();
-            
+            System.out.println("Server reversed " + msg);
+
             //reverse the line
             sb = new StringBuilder(msg);
             sb.reverse();
             msg = sb.toString();
-            
+	
             //for sending the data to client
             ps.println(msg);
         }
