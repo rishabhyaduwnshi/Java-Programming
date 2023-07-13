@@ -1,10 +1,15 @@
 Inserting into Department Table
+insert into department values(10,'CSE');
+insert into department values(20,'ECE');
+insert into department values(30,'Civil');
+insert into department values(40,'Mechanical');
+insert into department values(50,'Electrical');
 
 10|CSE
 20|ECE
 30|Civil
-40|Mech
-50|Chem
+40|Mechanical
+50|Electrical
 
 pragma foreign_keys=ON -> for switching on the foreign key constraint 
 
