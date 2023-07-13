@@ -1,7 +1,5 @@
-Creating two tables
-1. Department
-  create table department(dept_no integer primary key not null unique, dept_name text);
+//department table
+create table department(dept_number integer primary key not null unique, dept_name text);
 
-2. Students
-  create table students(rollNo integer primary key, name text, city text, dept_no integer, foreign key(dept_no) 
-                                                                                                        references department(dept_no));
+//students' table
+create table students(roll_number integer primary key, name text, city text, dept_number integer, foreign key(dept_number) references department(dept_number));
