@@ -1,4 +1,5 @@
-Inserting into Department Table
+// Inserting into Department Table
+
 insert into department values(10,'CSE');
 insert into department values(20,'ECE');
 insert into department values(30,'Civil');
@@ -13,7 +14,7 @@ insert into department values(50,'Electrical');
 
 pragma foreign_keys=ON -> for switching on the foreign key constraint 
 
-Inserting into Students Table
+//Inserting into Students Table
 
 1|Ajay|Delhi|10
 2|Akash|Mumbai|10
