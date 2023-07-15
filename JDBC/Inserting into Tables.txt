@@ -15,6 +15,20 @@ insert into department values(50,'Electrical');
 pragma foreign_keys=ON -> for switching on the foreign key constraint 
 
 //Inserting into Students Table
+insert into students values(1,'Ajay','Delhi',10);
+insert into students values(2,'Vijay','Kolkata',10);
+insert into students values(3,'Ajay','Mumbai',20);
+insert into students values(4,'Ramesh','Delhi',30);
+insert into students values(5,'Suneeta','Lucknow',40);
+insert into students values(5,'Anita','Kolkata',30);
+insert into students values(6,'Anita','Kolkata',30);
+insert into students values(7,'Raj','Jaipur',30);
+insert into students values(8,'Ali','Licknow',40);
+insert into students values(9,'Miacheal','Coachin',10);
+insert into students values(10,'Pawan','Vijaywada',20);
+
+
+
 
 1|Ajay|Delhi|10
 2|Akash|Mumbai|10
