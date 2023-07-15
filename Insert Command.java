@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.*;
 import java.sql.*;
 
-class DMLCommand
+class insertCommand
 {
 	public static void main(String args[]) throws Exception
 	{
