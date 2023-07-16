@@ -17,9 +17,7 @@ public class AddServlet extends HttpServlet
 			int secondnum = Integer.parseInt(request.getParameter("num2"));
 			
 			int sum = firstnum+secondnum;
-			
-			PrintWriter out = response.getWriter();
-			out.println("Sum of the numbers is : "+sum);
+			request.setAttribute("sum",sum);
 			
 			RequestDispatcher rd = request.getRequestDispatcher("square");
 			rd.forward(request, response);
