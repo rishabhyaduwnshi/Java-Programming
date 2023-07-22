@@ -1,3 +1,7 @@
+
+//create a database
+.open university.db
+
 //department table
 create table department(dept_number integer primary key not null unique, dept_name text);
 
